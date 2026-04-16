@@ -3,7 +3,7 @@ export default function PricingSection() {
     <section id="planos" className="bg-white py-12 lg:py-16">
       <div className="max-w-5xl mx-auto px-5 lg:px-8">
         <div className="download-cta-bg rounded-3xl overflow-hidden">
-          <div className="grid md:grid-cols-2 gap-0 items-center">
+          <div className="grid md:grid-cols-2 gap-0 items-stretch">
 
             {/* Left: Text + CTAs */}
             <div className="p-8 lg:p-12">
@@ -45,7 +45,7 @@ export default function PricingSection() {
             </div>
 
             {/* Right: Real device asset */}
-            <div className="relative flex justify-center items-end py-6 pr-8 pl-4 overflow-hidden min-h-[320px]">
+            <div className="relative flex justify-center items-end pt-6 pb-0 pr-8 pl-4 overflow-hidden min-h-[360px] h-full self-end">
               <div
                 className="absolute inset-0 pointer-events-none"
                 style={{ background: 'radial-gradient(circle at 65% 55%, rgba(6,182,212,0.18), transparent 65%)' }}
@@ -53,11 +53,11 @@ export default function PricingSection() {
               <img
                 src="/device.png"
                 alt="Pesquise+Health App"
-                className="relative z-10 w-[180px] md:w-[200px] h-auto object-contain"
+                className="relative z-10 w-[240px] md:w-[290px] h-auto object-contain"
                 style={{ filter: 'drop-shadow(0 24px 48px rgba(0,0,0,0.35))' }}
               />
               {/* Floating badge */}
-              <div className="absolute right-6 bottom-12 z-20 bg-white rounded-xl shadow-lg px-3 py-2">
+              <div className="absolute right-6 bottom-8 z-20 bg-white rounded-xl shadow-lg px-3 py-2">
                 <p className="text-[9px] text-gray-400">Pagamento recebido!</p>
                 <p className="text-[11px] font-bold text-green-600">+R$ 80,00 via Pix</p>
               </div>
