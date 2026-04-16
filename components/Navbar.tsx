@@ -30,10 +30,8 @@ export default function Navbar() {
 
         {/* Logo */}
         <a href="#" className="flex items-center gap-2.5 flex-shrink-0">
-          <div className="w-8 h-8 logo-gradient rounded-lg flex items-center justify-center flex-shrink-0 shadow-sm">
-            <svg className="w-4 h-4 text-white" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5"/>
-            </svg>
+          <div className="w-12 h-12 flex items-center justify-center flex-shrink-0">
+            <img src="/logo.png" alt="Logo PesquiseMais" className="w-12 h-12 object-contain" />
           </div>
           <span className="font-bold text-gray-900 text-[15px]">
             Pesquise+<span className="text-brand-500">Health</span>

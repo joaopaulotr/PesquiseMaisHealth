@@ -75,7 +75,7 @@ export default function TestimonialsSection() {
         </div>
 
         {/* Testimonial */}
-        <div key={active} className="grid md:grid-cols-2 gap-8 lg:gap-12 items-center reveal">
+        <div className="grid md:grid-cols-2 gap-8 lg:gap-12 items-center reveal visible">
 
           {/* Left: text */}
           <div>

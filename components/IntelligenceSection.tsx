@@ -3,14 +3,15 @@ const researches = [
     title: 'Hospital das Clínicas — USP',
     type: 'Pesquisa Clínica',
     specialty: 'Cardiologia · São Paulo, SP',
-    rating: '4.7',
+    rating: '4.8',
     reviews: '124',
     price: 'R$ 80',
     unit: '/sessão',
     seed: 'research-card-1',
+    badge: 'Cardiologia',
   },
   {
-    title: 'UNIFESP — Pesquisa Online',
+    title: 'UNIFESP — Neuro Cognitivo',
     type: 'Questionário Digital',
     specialty: 'Neurologia · Online',
     rating: '4.7',
@@ -18,16 +19,18 @@ const researches = [
     price: 'R$ 25',
     unit: '/questionário',
     seed: 'research-card-2',
+    badge: 'Neurologia',
   },
   {
-    title: 'Instituto do Coração',
-    type: 'Teste de Produto',
-    specialty: 'Farmacologia · São Paulo, SP',
-    rating: '4.7',
+    title: 'Instituto do Coração — InCor',
+    type: 'Estudo Observacional',
+    specialty: 'Clínica Médica · São Paulo, SP',
+    rating: '4.9',
     reviews: '67',
     price: 'R$ 150',
-    unit: '/teste',
+    unit: '/consulta',
     seed: 'research-card-3',
+    badge: 'Clínica Médica',
   },
 ]
 
@@ -39,19 +42,19 @@ export default function IntelligenceSection() {
         {/* Header */}
         <div className="text-center mb-12 reveal">
           <p className="text-[11px] font-bold text-brand-600 uppercase tracking-[0.14em] mb-4">
-            Recomendações
+            Por Especialidade
           </p>
           <h2 className="text-3xl lg:text-[2.2rem] font-extrabold text-gray-900 leading-tight">
-            Suas pesquisas perfeitas aqui
+            Pesquisas da sua área
           </h2>
           <p className="text-2xl lg:text-[1.6rem] font-light italic text-brand-500 mt-1">
-            participe, ganhe, contribua.
+            filtradas pela sua especialidade médica.
           </p>
         </div>
 
         {/* Research cards */}
         <div className="grid md:grid-cols-3 gap-5 stagger">
-          {researches.map(({ title, type, specialty, rating, reviews, price, unit, seed }) => (
+          {researches.map(({ title, type, specialty, rating, reviews, price, unit, seed, badge }) => (
             <div
               key={title}
               className="reveal bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-sm transition-all duration-300 hover:shadow-md hover:-translate-y-1"
@@ -65,6 +68,9 @@ export default function IntelligenceSection() {
                 />
                 <span className="absolute top-3 left-3 bg-white/90 backdrop-blur-sm text-gray-700 text-[10px] font-bold px-2.5 py-1 rounded-full shadow-sm">
                   {type}
+                </span>
+                <span className="absolute top-3 right-3 bg-brand-500 text-white text-[9px] font-bold px-2 py-1 rounded-full shadow-sm">
+                  {badge}
                 </span>
               </div>
 
@@ -87,9 +93,12 @@ export default function IntelligenceSection() {
                     <span className="font-extrabold text-gray-900 text-sm">{price}</span>
                     <span className="text-[11px] text-gray-400">{unit}</span>
                   </div>
-                  <button className="cta-gradient text-white text-[11px] font-bold px-4 py-2 rounded-full hover:opacity-90 transition-opacity">
+                  <a
+                    href="https://health.pesquisemais.com.br/login"
+                    className="cta-gradient text-white text-[11px] font-bold px-4 py-2 rounded-full hover:opacity-90 transition-opacity"
+                  >
                     Participar
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>

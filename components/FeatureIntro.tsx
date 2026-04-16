@@ -32,8 +32,8 @@ export default function FeatureIntro() {
         {/* Wide image */}
         <div className="reveal rounded-2xl lg:rounded-3xl overflow-hidden shadow-sm">
           <img
-            src="https://picsum.photos/seed/medical-research-wide/1200/500"
-            alt="Pesquisa médica"
+            src="/medicoCelular.jpg"
+            alt="Médico usando celular"
             className="w-full h-[220px] lg:h-[380px] object-cover"
           />
         </div>
