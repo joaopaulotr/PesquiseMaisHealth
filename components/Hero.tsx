@@ -43,10 +43,10 @@ export default function Hero() {
           infoBadgeText="Renda média dos participantes: R$ 300+/mês"
           ctaButtonText="Criar Conta Grátis"
           secondaryButtonText="Ver Como Funciona"
-          secondaryButtonHref="#como-funciona"
+          secondaryButtonHref="https://health.pesquisemais.com.br/login"
           socialProofText="+50.000 participantes já cadastrados"
           avatars={avatars}
-          ctaHref="#planos"
+          ctaHref="https://health.pesquisemais.com.br/login"
         />
 
         {/* Device image — large, centered */}

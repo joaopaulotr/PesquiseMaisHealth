@@ -21,7 +21,7 @@ export default function CTASection() {
 
         <div className="flex flex-wrap justify-center gap-4 mb-16">
           <a
-            href="#"
+            href="https://health.pesquisemais.com.br/login"
             className="inline-flex items-center gap-3 bg-white text-brand-700 font-extrabold px-7 py-3.5 rounded-full shadow-xl hover:shadow-2xl hover:scale-105 active:scale-95 transition-all text-sm"
           >
             <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -30,7 +30,7 @@ export default function CTASection() {
             Download on iOS
           </a>
           <a
-            href="#"
+            href="https://health.pesquisemais.com.br/login"
             className="inline-flex items-center gap-3 bg-white/15 backdrop-blur border border-white/30 text-white font-bold px-7 py-3.5 rounded-full hover:bg-white/25 transition-all text-sm"
           >
             <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
