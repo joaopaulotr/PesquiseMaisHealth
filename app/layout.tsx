@@ -13,6 +13,11 @@ export const metadata: Metadata = {
   title: 'Pesquise+Health — Pesquisas Médicas Remuneradas',
   description:
     'Participe de pesquisas médicas remuneradas, contribua com o avanço da medicina e receba pagamentos instantâneos via Pix.',
+  icons: {
+    icon: '/logo.png',
+    shortcut: '/logo.png',
+    apple: '/logo.png',
+  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

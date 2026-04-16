@@ -7,7 +7,7 @@ const researches = [
     reviews: '124',
     price: 'R$ 80',
     unit: '/sessão',
-    seed: 'research-card-1',
+    image: 'https://images.pexels.com/photos/8376233/pexels-photo-8376233.jpeg?auto=compress&cs=tinysrgb&w=1200',
     badge: 'Cardiologia',
   },
   {
@@ -18,7 +18,7 @@ const researches = [
     reviews: '89',
     price: 'R$ 25',
     unit: '/questionário',
-    seed: 'research-card-2',
+    image: 'https://images.pexels.com/photos/7089401/pexels-photo-7089401.jpeg?auto=compress&cs=tinysrgb&w=1200',
     badge: 'Neurologia',
   },
   {
@@ -29,7 +29,7 @@ const researches = [
     reviews: '67',
     price: 'R$ 150',
     unit: '/consulta',
-    seed: 'research-card-3',
+    image: 'https://images.pexels.com/photos/5722164/pexels-photo-5722164.jpeg?auto=compress&cs=tinysrgb&w=1200',
     badge: 'Clínica Médica',
   },
 ]
@@ -54,7 +54,7 @@ export default function IntelligenceSection() {
 
         {/* Research cards */}
         <div className="grid md:grid-cols-3 gap-5 stagger">
-          {researches.map(({ title, type, specialty, rating, reviews, price, unit, seed, badge }) => (
+          {researches.map(({ title, type, specialty, rating, reviews, price, unit, image, badge }) => (
             <div
               key={title}
               className="reveal bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-sm transition-all duration-300 hover:shadow-md hover:-translate-y-1"
@@ -62,7 +62,7 @@ export default function IntelligenceSection() {
               {/* Image */}
               <div className="h-40 relative overflow-hidden">
                 <img
-                  src={`https://picsum.photos/seed/${seed}/400/280`}
+                  src={image}
                   alt={title}
                   className="w-full h-full object-cover"
                 />

@@ -35,9 +35,7 @@ export default function Footer() {
           <div className="col-span-2">
             <a href="https://pesquisemais.com.br/" className="flex items-center gap-2.5 mb-4">
               <div className="w-8 h-8 logo-gradient rounded-lg flex items-center justify-center flex-shrink-0">
-                <svg className="w-4 h-4 text-white" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5"/>
-                </svg>
+                <img src="/logo.png" alt="Logo PesquiseMais" className="w-7 h-7 object-contain" />
               </div>
               <span className="font-bold text-white text-[15px]">Pesquise+Health</span>
             </a>
@@ -81,7 +79,7 @@ export default function Footer() {
         {/* Bottom */}
         <div className="border-t border-white/[0.07] pt-7 flex flex-col sm:flex-row justify-between items-center gap-3">
           <p className="text-xs text-white/25 font-light">
-            © 2025 Pesquise+Health · MC Soluções em Pesquisa · São Paulo, Brasil
+            © 2026 Pesquise+ · MC Soluções em Pesquisa · São Paulo, Brasil
           </p>
           <div className="flex items-center gap-5 text-xs text-white/25 font-light">
             <a href="https://pesquisemais.com.br/privacidade" className="hover:text-white/50 transition-colors">Política de Privacidade</a>
