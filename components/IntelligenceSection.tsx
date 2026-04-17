@@ -5,8 +5,9 @@ const researches = [
     specialty: 'Cardiologia · São Paulo, SP',
     rating: '4.8',
     reviews: '124',
-    price: 'R$ 80',
-    unit: '/sessão',
+    price: 'R$ 800',
+    remoto: 'R$ 150',
+    unit: '/presencial',
     image: 'https://images.pexels.com/photos/8376233/pexels-photo-8376233.jpeg?auto=compress&cs=tinysrgb&w=1200',
     badge: 'Cardiologia',
   },
@@ -16,8 +17,9 @@ const researches = [
     specialty: 'Neurologia · Online',
     rating: '4.7',
     reviews: '89',
-    price: 'R$ 25',
-    unit: '/questionário',
+    price: 'R$ 1.200',
+    remoto: 'R$ 300',
+    unit: '/presencial',
     image: 'https://images.pexels.com/photos/7089401/pexels-photo-7089401.jpeg?auto=compress&cs=tinysrgb&w=1200',
     badge: 'Neurologia',
   },
@@ -27,8 +29,9 @@ const researches = [
     specialty: 'Clínica Médica · São Paulo, SP',
     rating: '4.9',
     reviews: '67',
-    price: 'R$ 150',
-    unit: '/consulta',
+    price: 'R$ 800',
+    remoto: 'R$ 160',
+    unit: '/presencial',
     image: 'https://images.pexels.com/photos/5722164/pexels-photo-5722164.jpeg?auto=compress&cs=tinysrgb&w=1200',
     badge: 'Clínica Médica',
   },
@@ -54,7 +57,7 @@ export default function IntelligenceSection() {
 
         {/* Research cards */}
         <div className="grid md:grid-cols-3 gap-5 stagger">
-          {researches.map(({ title, type, specialty, rating, reviews, price, unit, image, badge }) => (
+          {researches.map(({ title, type, specialty, rating, reviews, price, remoto, unit, image, badge }) => (
             <div
               key={title}
               className="reveal bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-sm transition-all duration-300 hover:shadow-md hover:-translate-y-1"
@@ -89,9 +92,10 @@ export default function IntelligenceSection() {
                 <p className="text-[11px] text-gray-400 mb-4">{specialty}</p>
                 <div className="flex items-center justify-between">
                   <div>
-                    <span className="text-[11px] text-gray-400">A partir de </span>
                     <span className="font-extrabold text-gray-900 text-sm">{price}</span>
-                    <span className="text-[11px] text-gray-400">{unit}</span>
+                    <span className="text-[11px] text-gray-400"> {unit}</span>
+                    <span className="text-[10px] text-gray-300 mx-1">·</span>
+                    <span className="text-[11px] text-gray-400">{remoto} remoto</span>
                   </div>
                   <a
                     href="https://health.pesquisemais.com.br/login"

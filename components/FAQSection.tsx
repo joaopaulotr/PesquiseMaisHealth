@@ -3,12 +3,11 @@
 import { useState } from 'react'
 
 const faqs = [
-  { q: 'Como funciona o pagamento das pesquisas?', a: 'Após concluir uma pesquisa, o pagamento é creditado automaticamente em seu saldo. Você pode sacar via Pix a qualquer momento, com transferência em até 24h úteis.' },
-  { q: 'Posso participar sem ser profissional de saúde?', a: 'Sim! A plataforma é aberta para qualquer pessoa. Alguns estudos são direcionados a perfis específicos, mas há pesquisas disponíveis para todos os perfis.' },
+  { q: 'Como funciona o pagamento das pesquisas?', a: 'Após concluir uma pesquisa, o pagamento é creditado automaticamente em seu saldo. Você pode sacar via Pix a qualquer momento.' },
+  { q: 'Esta plataforma é para profissionais de saúde?', a: 'Sim. O Pesquise+Health é exclusivo para profissionais de saúde. Se você é paciente ou faz parte da população geral, acesse nosso app Pesquise+Health voltado para participação pública.' },
   { q: 'Meus dados pessoais estão seguros?', a: 'Sim. Seguimos rigorosamente a LGPD. Seus dados são criptografados e nunca compartilhados sem seu consentimento explícito. Você pode solicitar exclusão a qualquer momento.' },
-  { q: 'Quantas pesquisas posso fazer por mês?', a: 'No plano gratuito, até 3 por mês. No plano Básico e Premium, as pesquisas são ilimitadas, disponibilizadas conforme seu perfil e disponibilidade dos estudos.' },
   { q: 'Posso cancelar minha conta a qualquer momento?', a: 'Sim. Você pode cancelar sem cobranças adicionais. Seu histórico e saldo pendente continuam acessíveis por 30 dias após o cancelamento.' },
-  { q: 'Tem suporte ao vivo disponível 24/7?', a: 'Sim! Assinantes Básico e Premium têm acesso ao suporte por chat 24 horas por dia, 7 dias por semana. O plano gratuito tem suporte por e-mail.' },
+  { q: 'Tem suporte ao vivo disponível 24/7?', a: 'Sim! Suporte por chat 24 horas por dia, 7 dias por semana.' },
 ]
 
 export default function FAQSection() {
