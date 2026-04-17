@@ -5,26 +5,28 @@
 /* ── CSS Variables ─────────────────────────────────────── */
 :root {
   /* Brand tokens (direct hex) */
-  --brand:      #06B6D4;
-  --brand-dark: #0891B2;
+  --brand:      #1D9BDE;
+  --brand-dark: #1768C8;
+  --brand-start:#2F6EF8;
+  --brand-end:  #18D9B5;
   --ink:        #111827;
 
   /* shadcn/ui compatible tokens (HSL without hsl()) */
   --background:            0 0% 100%;
   --foreground:            220 14% 7%;
-  --primary:               189 91% 44%;   /* #06B6D4 */
+  --primary:               201 76% 49%;   /* #1D9BDE */
   --primary-foreground:    0 0% 100%;
   --secondary:             210 20% 96%;
   --secondary-foreground:  220 14% 10%;
   --muted:                 210 20% 96%;
   --muted-foreground:      215 16% 47%;
-  --accent:                189 92% 97%;
-  --accent-foreground:     189 74% 30%;
+  --accent:                166 83% 96%;
+  --accent-foreground:     174 76% 28%;
   --destructive:           0 84% 60%;
   --destructive-foreground: 0 0% 98%;
   --border:                220 13% 91%;
   --input:                 220 13% 91%;
-  --ring:                  189 91% 44%;
+  --ring:                  201 76% 49%;
   --radius:                0.5rem;
 }
 
@@ -114,7 +116,7 @@ html {
 
 /* ── Gradient text ───────────────────────────────── */
 .gradient-text {
-  background: linear-gradient(135deg, #06B6D4 0%, #0891B2 100%);
+  background: linear-gradient(135deg, var(--brand-start) 0%, var(--brand-end) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -122,17 +124,17 @@ html {
 
 /* ── CTA gradient ────────────────────────────────── */
 .cta-gradient {
-  background: linear-gradient(135deg, #06B6D4 0%, #0891B2 100%);
+  background: linear-gradient(135deg, var(--brand-start) 0%, var(--brand-end) 100%);
 }
 
 /* ── Download CTA dark background ───────────────── */
 .download-cta-bg {
-  background: linear-gradient(140deg, #0B4D5C 0%, #083A47 50%, #062D38 100%);
+  background: linear-gradient(140deg, #0A2E5F 0%, #0A4F7A 52%, #0C6A67 100%);
 }
 
 /* ── Logo gradient (navbar / footer icon) ────────── */
 .logo-gradient {
-  background: linear-gradient(135deg, #06B6D4 0%, #0891B2 100%);
+  background: linear-gradient(135deg, var(--brand-start) 0%, var(--brand-end) 100%);
 }
 
 /* ── Scrollbar hide ──────────────────────────────── */

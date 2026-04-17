@@ -33,11 +33,8 @@ export default function Footer() {
 
           {/* Brand — spans 2 cols */}
           <div className="col-span-2">
-            <a href="https://pesquisemais.com.br/" className="flex items-center gap-2.5 mb-4">
-              <div className="w-8 h-8 logo-gradient rounded-lg flex items-center justify-center flex-shrink-0">
-                <img src="/logo.png" alt="Logo PesquiseMais" className="w-7 h-7 object-contain" />
-              </div>
-              <span className="font-bold text-white text-[15px]">P+ Health</span>
+            <a href="https://pesquisemais.com.br/" className="flex items-center mb-4">
+              <img src="/health_logo_hd%202.png" alt="Logo PesquiseMais" className="w-20 h-20 object-contain" />
             </a>
             <p className="text-sm text-white/40 font-light leading-relaxed mb-5 max-w-[220px]">
               Comunidade de engajamento para profissionais da medicina na América Latina.

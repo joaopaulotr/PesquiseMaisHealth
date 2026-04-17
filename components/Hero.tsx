@@ -53,7 +53,7 @@ export default function Hero() {
             src="/device.png"
             alt="P+ Health App"
             className="w-[280px] md:w-[350px] lg:w-[420px] h-auto object-contain"
-            style={{ filter: 'drop-shadow(0 40px 80px rgba(6,182,212,0.18)) drop-shadow(0 20px 40px rgba(0,0,0,0.14))' }}
+            style={{ filter: 'drop-shadow(0 40px 80px rgba(47,110,248,0.18)) drop-shadow(0 20px 40px rgba(0,0,0,0.14))' }}
           />
         </div>
 

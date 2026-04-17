@@ -44,16 +44,16 @@ const config: Config = {
         },
         /* Existing brand tokens */
         brand: {
-          50:  '#F0FDFE',
-          100: '#CFFAFE',
-          200: '#A5F3FC',
-          300: '#67E8F9',
-          400: '#22D3EE',
-          500: '#06B6D4',
-          600: '#0891B2',
-          700: '#0E7490',
-          800: '#155E75',
-          900: '#164E63',
+          50:  '#ECF5FF',
+          100: '#D9EAFF',
+          200: '#B7D7FF',
+          300: '#88BEFF',
+          400: '#4A9AFF',
+          500: '#2386F3',
+          600: '#1A6FD0',
+          700: '#185CAD',
+          800: '#164B8A',
+          900: '#143D70',
         },
         ink: {
           DEFAULT: '#09090B',
@@ -74,7 +74,7 @@ const config: Config = {
       boxShadow: {
         'bezel':   '0 1px 3px rgba(0,0,0,0.05), inset 0 1px 0 rgba(255,255,255,0.8)',
         'premium': '0 24px 80px -12px rgba(0,0,0,0.18), 0 8px 24px -4px rgba(0,0,0,0.10)',
-        'brand':   '0 16px 48px rgba(6,182,212,0.28)',
+        'brand':   '0 16px 48px rgba(35,134,243,0.28)',
       },
       animation: {
         aurora: "aurora 60s linear infinite",

@@ -14,9 +14,9 @@ export const metadata: Metadata = {
   description:
     'Participe de pesquisas médicas remuneradas, contribua com o avanço da medicina e receba pagamentos instantâneos via Pix.',
   icons: {
-    icon: '/logo.png',
-    shortcut: '/logo.png',
-    apple: '/logo.png',
+    icon: '/health_logo_hd%202.png',
+    shortcut: '/health_logo_hd%202.png',
+    apple: '/health_logo_hd%202.png',
   },
 }
 

@@ -28,13 +28,10 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto px-5 lg:px-8 flex items-center justify-between h-[68px]">
 
         {/* Logo */}
-        <a href="#" className="flex items-center gap-2.5 flex-shrink-0">
-          <div className="w-12 h-12 flex items-center justify-center flex-shrink-0">
-            <img src="/logo.png" alt="Logo PesquiseMais" className="w-12 h-12 object-contain" />
+        <a href="#" className="flex items-center flex-shrink-0">
+          <div className="w-14 h-14 flex items-center justify-center flex-shrink-0">
+            <img src="/health_logo_hd%202.png" alt="Logo PesquiseMais" className="w-16 h-16 object-contain" />
           </div>
-          <span className="font-bold text-gray-900 text-[15px]">
-            P+ <span className="text-brand-500">Health</span>
-          </span>
         </a>
 
         {/* Desktop links */}
