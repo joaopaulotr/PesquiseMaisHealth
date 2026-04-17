@@ -3,11 +3,9 @@
 import { useState } from 'react'
 
 const faqs = [
-  { q: 'Como funciona o pagamento das pesquisas?', a: 'Após concluir uma pesquisa, o pagamento é creditado automaticamente em seu saldo. Você pode sacar via Pix a qualquer momento.' },
-  { q: 'Esta plataforma é para profissionais de saúde?', a: 'Sim. O Pesquise+Health é exclusivo para profissionais de saúde. Se você é paciente ou faz parte da população geral, acesse nosso app Pesquise+Health voltado para participação pública.' },
-  { q: 'Meus dados pessoais estão seguros?', a: 'Sim. Seguimos rigorosamente a LGPD. Seus dados são criptografados e nunca compartilhados sem seu consentimento explícito. Você pode solicitar exclusão a qualquer momento.' },
-  { q: 'Posso cancelar minha conta a qualquer momento?', a: 'Sim. Você pode cancelar sem cobranças adicionais. Seu histórico e saldo pendente continuam acessíveis por 30 dias após o cancelamento.' },
-  { q: 'Tem suporte ao vivo disponível 24/7?', a: 'Sim! Suporte por chat 24 horas por dia, 7 dias por semana.' },
+  { q: 'Como funcionam os honorários?', a: 'Os honorários são creditados em até 4 semanas após a participação efetiva, por transferência bancária em moeda local. Você receberá um e-mail informando a data de pagamento, a modalidade e o valor creditado. Em caso de dúvidas, escreva para admin@pesquisemais.com.br.' },
+  { q: 'Esta plataforma é para profissionais de saúde?', a: 'Sim. O P+ Health é exclusivo para profissionais de saúde registrados (médicos, dentistas, farmacêuticos e demais profissionais legalmente habilitados). Se você é paciente ou da população geral, acesse nosso app P+ Health voltado para participação pública.' },
+  { q: 'Meus dados pessoais estão seguros?', a: 'Sim. Seguimos rigorosamente a LGPD. Seus dados são criptografados e nunca compartilhados com terceiros sem seu consentimento explícito. A única exceção são casos de saúde pública ou Eventos Adversos (AE), apenas quando previamente aceito pelo participante. Você pode solicitar exclusão a qualquer momento.' },
 ]
 
 export default function FAQSection() {
@@ -24,7 +22,7 @@ export default function FAQSection() {
             Perguntas Frequentes sobre nossa
           </h2>
           <p className="text-3xl lg:text-[2.1rem] font-extrabold italic text-brand-500 leading-tight">
-            Plataforma Pesquise+Health
+            Plataforma P+ Health
           </p>
         </div>
 

@@ -10,7 +10,7 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'Pesquise+Health — Pesquisas Médicas Remuneradas',
+  title: 'P+ Health — Pesquisas Médicas Remuneradas',
   description:
     'Participe de pesquisas médicas remuneradas, contribua com o avanço da medicina e receba pagamentos instantâneos via Pix.',
   icons: {

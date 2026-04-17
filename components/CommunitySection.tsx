@@ -30,7 +30,7 @@ export default function CommunitySection() {
               <span className="gradient-text">profissionais reais.</span>
             </h2>
             <p className="text-zinc-500 font-light mt-4 text-base leading-relaxed max-w-sm">
-              Médicos e pesquisadores renomados confiam na Pesquise+Health para conduzir seus estudos clínicos.
+              Médicos e pesquisadores renomados confiam na P+ Health para conduzir seus estudos clínicos.
             </p>
           </div>
           {/* Scroll controls */}

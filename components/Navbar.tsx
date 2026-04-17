@@ -33,7 +33,7 @@ export default function Navbar() {
             <img src="/logo.png" alt="Logo PesquiseMais" className="w-12 h-12 object-contain" />
           </div>
           <span className="font-bold text-gray-900 text-[15px]">
-            Pesquise+<span className="text-brand-500">Health</span>
+            P+ <span className="text-brand-500">Health</span>
           </span>
         </a>
 

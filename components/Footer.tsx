@@ -37,10 +37,10 @@ export default function Footer() {
               <div className="w-8 h-8 logo-gradient rounded-lg flex items-center justify-center flex-shrink-0">
                 <img src="/logo.png" alt="Logo PesquiseMais" className="w-7 h-7 object-contain" />
               </div>
-              <span className="font-bold text-white text-[15px]">Pesquise+Health</span>
+              <span className="font-bold text-white text-[15px]">P+ Health</span>
             </a>
             <p className="text-sm text-white/40 font-light leading-relaxed mb-5 max-w-[220px]">
-              Pesquisas médicas remuneradas que conectam participantes com a ciência brasileira.
+              Comunidade de engajamento para profissionais da medicina na América Latina.
             </p>
             <div className="flex gap-2">
               {socials.map(({ label, href, path }) => (
@@ -79,9 +79,10 @@ export default function Footer() {
         {/* Bottom */}
         <div className="border-t border-white/[0.07] pt-7 flex flex-col sm:flex-row justify-between items-center gap-3">
           <p className="text-xs text-white/25 font-light">
-            © 2026 Pesquise+ · MC Soluções em Pesquisa · São Paulo, Brasil
+            © 2026 P+ Health · MC Soluções em Pesquisa · Brasil · Argentina · Paraguai
           </p>
           <div className="flex items-center gap-5 text-xs text-white/25 font-light">
+            <a href="mailto:admin@pesquisemais.com.br" className="hover:text-white/50 transition-colors">admin@pesquisemais.com.br</a>
             <a href="https://pesquisemais.com.br/privacidade" className="hover:text-white/50 transition-colors">Política de Privacidade</a>
           </div>
         </div>

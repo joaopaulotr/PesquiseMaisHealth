@@ -51,7 +51,7 @@ export default function IntelligenceSection() {
             Pesquisas da sua área
           </h2>
           <p className="text-2xl lg:text-[1.6rem] font-light italic text-brand-500 mt-1">
-            filtradas pela sua especialidade médica.
+            exclusivas para sua especialidade médica.
           </p>
         </div>
 

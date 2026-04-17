@@ -16,7 +16,7 @@ export default function FinalCTA() {
             <span className="gradient-text">onde quiser!</span>
           </h2>
           <p className="text-zinc-500 font-light text-lg leading-relaxed mb-8 max-w-md">
-            Baixe o Pesquise+Health e comece a participar de pesquisas médicas remuneradas. Disponível gratuitamente para iOS e Android.
+            Baixe o P+ Health e comece a participar de pesquisas médicas remuneradas. Disponível gratuitamente para iOS e Android.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-3 mb-10">
@@ -53,13 +53,13 @@ export default function FinalCTA() {
         <div className="flex justify-center reveal-right">
           <div className="relative">
             <div className="phone-frame w-56 h-[480px]">
-              <img src="https://picsum.photos/seed/health-final-cta-v2/320/680" alt="Pesquise+Health App" />
+              <img src="https://picsum.photos/seed/health-final-cta-v2/320/680" alt="P+ Health App" />
               <div className="absolute inset-0 z-10 pt-8 px-4 pb-4">
                 <div className="mt-4 bg-gradient-to-br from-brand-500/30 to-brand-700/30 backdrop-blur-sm border border-brand-400/30 rounded-2xl p-4 text-white text-center">
                   <div className="w-14 h-14 rounded-2xl logo-gradient flex items-center justify-center mx-auto mb-3 shadow-lg">
                     <span className="text-white font-black text-xl">H</span>
                   </div>
-                  <p className="font-extrabold text-base mb-0.5">Pesquise+Health</p>
+                  <p className="font-extrabold text-base mb-0.5">P+ Health</p>
                   <p className="text-[11px] text-white/70">Pesquisas Médicas Remuneradas</p>
                 </div>
               </div>

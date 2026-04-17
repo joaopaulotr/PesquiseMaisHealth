@@ -9,13 +9,11 @@ const avatars = [
 ]
 
 const logos = [
-  'USP Medicina',
-  'UNIFESP',
-  'FIOCRUZ',
-  'H. Albert Einstein',
-  'Sírio-Libanês',
-  'InCor',
-]
+  'Centros Universitários',
+'Institutos de Pesquisa',
+'Laboratórios',
+'Clínicas Especializadas',
+'Hospitais de Referência']
 
 export default function Hero() {
   return (
@@ -41,10 +39,10 @@ export default function Hero() {
           ]}
           subtitle="Conectamos você a estudos médicos verificados. Compartilhe suas experiências, contribua com o avanço da medicina e receba pagamentos instantâneos."
           infoBadgeText="Renda média dos participantes: R$ 300+/mês"
-          ctaButtonText="Criar Conta Grátis"
+          ctaButtonText="Cadastre-se"
           secondaryButtonText="Ver Como Funciona"
           secondaryButtonHref="https://health.pesquisemais.com.br/login"
-          socialProofText="+50.000 participantes já cadastrados"
+          socialProofText="+95.000 já participaram de pesquisas"
           avatars={avatars}
           ctaHref="https://health.pesquisemais.com.br/login"
         />
@@ -53,7 +51,7 @@ export default function Hero() {
         <div className="flex justify-center pb-0">
           <img
             src="/device.png"
-            alt="Pesquise+Health App"
+            alt="P+ Health App"
             className="w-[280px] md:w-[350px] lg:w-[420px] h-auto object-contain"
             style={{ filter: 'drop-shadow(0 40px 80px rgba(6,182,212,0.18)) drop-shadow(0 20px 40px rgba(0,0,0,0.14))' }}
           />
@@ -62,7 +60,7 @@ export default function Hero() {
         {/* Logo strip */}
         <div className="border-t border-gray-200/60 pt-7 pb-10 text-center">
           <p className="text-[11px] text-gray-400 font-semibold uppercase tracking-[0.14em] mb-5">
-            Mais de 50.000 participantes e crescendo
+            Mais de 95.000 participantes de pesquisas e crescendo
           </p>
           <div className="flex items-center justify-center flex-wrap gap-x-8 gap-y-3 px-5">
             {logos.map(logo => (

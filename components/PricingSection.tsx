@@ -11,10 +11,10 @@ export default function PricingSection() {
                 Acesse a Plataforma
               </p>
               <h2 className="text-2xl lg:text-[1.9rem] font-extrabold text-white leading-tight mb-4">
-                Comece agora e participe das pesquisas médicas remuneradas!
+                Comece agora e receba honorários pelas suas contribuições!
               </h2>
               <p className="text-white/60 font-light text-sm leading-relaxed mb-8">
-                Crie sua conta grátis e explore centenas de pesquisas disponíveis. Sem compromisso, cancele quando quiser.
+                Cadastre-se e explore pesquisas disponíveis para a sua especialidade.
               </p>
               <div className="flex flex-col sm:flex-row gap-3">
                 <a
@@ -26,7 +26,7 @@ export default function PricingSection() {
                   </svg>
                   <div>
                     <p className="text-[10px] text-gray-400 leading-none mb-0.5 font-normal">Comece agora</p>
-                    <p className="leading-none">Criar Conta Grátis</p>
+                    <p className="leading-none">Criar Conta</p>
                   </div>
                 </a>
                 <a
@@ -52,14 +52,14 @@ export default function PricingSection() {
               />
               <img
                 src="/device.png"
-                alt="Pesquise+Health App"
+                alt="P+ Health App"
                 className="relative z-10 w-[240px] md:w-[290px] h-auto object-contain"
                 style={{ filter: 'drop-shadow(0 24px 48px rgba(0,0,0,0.35))' }}
               />
               {/* Floating badge */}
               <div className="absolute right-6 bottom-8 z-20 bg-white rounded-xl shadow-lg px-3 py-2">
-                <p className="text-[9px] text-gray-400">Pagamento recebido!</p>
-                <p className="text-[11px] font-bold text-green-600">+R$ 80,00 via Pix</p>
+                <p className="text-[9px] text-gray-400">Honorários creditados!</p>
+                <p className="text-[11px] font-bold text-green-600">+R$ 800,00 depositado</p>
               </div>
             </div>
 
