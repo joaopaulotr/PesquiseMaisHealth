@@ -12,7 +12,7 @@ export default function FAQSection() {
   const [open, setOpen] = useState<number | null>(null)
 
   return (
-    <section id="faq" className="bg-white py-20 lg:py-28">
+    <section id="faq" className="bg-white pt-10 pb-20 lg:pt-14 lg:pb-28">
       <div className="max-w-2xl mx-auto px-5 lg:px-8">
 
         {/* Header */}
