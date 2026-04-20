@@ -1,6 +1,6 @@
 const researches = [
   {
-    title: 'Hospital das Clínicas — USP',
+    title: 'Estudo Cardiovascular GO Cardio',
     type: 'Pesquisa Clínica',
     specialty: 'Cardiologia · São Paulo, SP',
     rating: '4.8',
@@ -12,28 +12,28 @@ const researches = [
     badge: 'Cardiologia',
   },
   {
-    title: 'UNIFESP — Neuro Cognitivo',
-    type: 'Questionário Digital',
-    specialty: 'Neurologia · Online',
+    title: 'Estudo Obesidade',
+    type: 'Triagem Clínica',
+    specialty: 'Endocrinologia · Online',
     rating: '4.7',
     reviews: '89',
     price: 'R$ 1.200',
     remoto: 'R$ 300',
     unit: '/presencial',
     image: 'https://images.pexels.com/photos/7089401/pexels-photo-7089401.jpeg?auto=compress&cs=tinysrgb&w=1200',
-    badge: 'Neurologia',
+    badge: 'Endocrinologia',
   },
   {
-    title: 'Instituto do Coração — InCor',
+    title: 'Estudo Câncer de Ovário',
     type: 'Estudo Observacional',
-    specialty: 'Clínica Médica · São Paulo, SP',
+    specialty: 'Oncologia · São Paulo, SP',
     rating: '4.9',
     reviews: '67',
     price: 'R$ 800',
     remoto: 'R$ 160',
     unit: '/presencial',
     image: 'https://images.pexels.com/photos/5722164/pexels-photo-5722164.jpeg?auto=compress&cs=tinysrgb&w=1200',
-    badge: 'Clínica Médica',
+    badge: 'Oncologia',
   },
 ]
 
@@ -60,7 +60,7 @@ export default function IntelligenceSection() {
           {researches.map(({ title, type, specialty, rating, reviews, price, remoto, unit, image, badge }) => (
             <div
               key={title}
-              className="reveal bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-sm transition-all duration-300 hover:shadow-md hover:-translate-y-1"
+              className="reveal h-full flex flex-col bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-sm transition-all duration-300 hover:shadow-md hover:-translate-y-1"
             >
               {/* Image */}
               <div className="h-40 relative overflow-hidden">
@@ -78,8 +78,8 @@ export default function IntelligenceSection() {
               </div>
 
               {/* Content */}
-              <div className="p-4">
-                <div className="flex items-start justify-between gap-2 mb-1">
+              <div className="p-4 flex flex-col flex-1">
+                <div className="flex items-start justify-between gap-2 mb-2 min-h-[2.5rem]">
                   <h3 className="font-bold text-gray-900 text-[13px] leading-tight flex-1">{title}</h3>
                   <div className="flex items-center gap-0.5 flex-shrink-0 mt-0.5">
                     <svg className="w-3 h-3 text-amber-400 fill-current" viewBox="0 0 20 20">
@@ -89,9 +89,9 @@ export default function IntelligenceSection() {
                     <span className="text-[10px] text-gray-400 ml-0.5">({reviews})</span>
                   </div>
                 </div>
-                <p className="text-[11px] text-gray-400 mb-4">{specialty}</p>
-                <div className="flex items-center justify-between">
-                  <div>
+                <p className="text-[11px] text-gray-400 mb-4 min-h-[1rem]">{specialty}</p>
+                <div className="mt-auto flex items-end justify-between gap-3">
+                  <div className="leading-tight">
                     <span className="font-extrabold text-gray-900 text-sm">{price}</span>
                     <span className="text-[11px] text-gray-400"> {unit}</span>
                     <span className="text-[10px] text-gray-300 mx-1">·</span>
@@ -99,7 +99,7 @@ export default function IntelligenceSection() {
                   </div>
                   <a
                     href="https://health.pesquisemais.com.br/login"
-                    className="cta-gradient text-white text-[11px] font-bold px-4 py-2 rounded-full hover:opacity-90 transition-opacity"
+                    className="cta-gradient text-white text-[11px] font-bold px-4 py-2 rounded-full hover:opacity-90 transition-opacity shrink-0"
                   >
                     Participar
                   </a>
