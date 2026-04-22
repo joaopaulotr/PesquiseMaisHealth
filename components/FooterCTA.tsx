@@ -19,7 +19,7 @@ export default function FooterCTA() {
           </p>
           <div className="flex flex-wrap gap-4">
             <a
-              href="#"
+              href="https://health.pesquisemais.com.br/login"
               className="inline-flex items-center gap-2.5 bg-brand-600 hover:bg-brand-500 text-white font-extrabold px-8 py-4 rounded-full text-base shadow-xl shadow-brand-900/40 transition-all hover:scale-105 active:scale-95"
             >
               Start Your Journey
@@ -28,7 +28,7 @@ export default function FooterCTA() {
               </svg>
             </a>
             <a
-              href="#"
+              href="https://health.pesquisemais.com.br/login"
               className="inline-flex items-center gap-2.5 text-white font-bold px-8 py-4 rounded-full border border-white/20 hover:bg-white/10 transition-all text-base"
             >
               Watch Demo

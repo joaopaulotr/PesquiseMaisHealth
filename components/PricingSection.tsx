@@ -18,7 +18,7 @@ export default function PricingSection() {
               </p>
               <div className="flex flex-col sm:flex-row gap-3">
                 <a
-                  href="#"
+                  href="https://health.pesquisemais.com.br/login"
                   className="inline-flex items-center gap-3 bg-white text-gray-900 font-bold px-5 py-3.5 rounded-xl shadow-lg transition-all hover:scale-[1.02] hover:shadow-xl text-[13px]"
                 >
                   <svg className="w-5 h-5 text-brand-600" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
@@ -30,7 +30,7 @@ export default function PricingSection() {
                   </div>
                 </a>
                 <a
-                  href="#"
+                  href="https://health.pesquisemais.com.br/login"
                   className="inline-flex items-center gap-3 bg-white/10 border border-white/20 text-white font-bold px-5 py-3.5 rounded-xl transition-all hover:bg-white/20 text-[13px]"
                 >
                   <svg className="w-5 h-5 text-brand-300" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">

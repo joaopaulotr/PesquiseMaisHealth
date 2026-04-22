@@ -59,9 +59,9 @@ export default function FeaturesSection() {
                   <p className="text-[10px] font-semibold text-gray-800">Adultos</p>
                 </div>
               </div>
-              <button className="w-full cta-gradient text-white text-[11px] font-bold py-2 rounded-lg hover:opacity-90 transition-opacity">
+              <a href="https://health.pesquisemais.com.br/login" className="block w-full cta-gradient text-white text-[11px] font-bold py-2 rounded-lg hover:opacity-90 transition-opacity text-center">
                 Buscar Pesquisas
-              </button>
+              </a>
             </div>
           </div>
 

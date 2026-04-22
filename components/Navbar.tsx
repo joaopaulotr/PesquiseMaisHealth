@@ -49,10 +49,10 @@ export default function Navbar() {
 
         {/* CTA */}
         <a
-          href="#planos"
+          href="https://health.pesquisemais.com.br/login"
           className="hidden md:inline-flex items-center cta-gradient text-white text-[13px] font-semibold px-5 py-2.5 rounded-full transition-all hover:opacity-90 hover:scale-[1.02] active:scale-[0.98]"
         >
-          Começar Grátis
+          Cadastre-se
         </a>
 
         {/* Mobile toggle */}
@@ -86,7 +86,7 @@ export default function Navbar() {
             ))}
           </div>
           <a
-            href="#planos"
+            href="https://health.pesquisemais.com.br/login"
             onClick={() => setOpen(false)}
             className="block cta-gradient text-white text-sm font-semibold text-center py-3 rounded-full"
           >

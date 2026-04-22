@@ -29,7 +29,7 @@ export default function ExplorationSection() {
             Cada resposta que você dá contribui para avanços reais na medicina. Faça parte dessa história e ganhe enquanto muda o futuro da saúde.
           </p>
           <a
-            href="#planos"
+            href="https://health.pesquisemais.com.br/login"
             className="inline-flex items-center gap-2 cta-gradient text-white font-bold pl-6 pr-2 py-2.5 rounded-full shadow-brand transition-all duration-300 hover:scale-[1.04] active:scale-[0.97] text-sm"
           >
             Comece Agora
