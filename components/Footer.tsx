@@ -7,7 +7,7 @@ const footerLinks = {
   ],
   Suporte:  [
     { label: 'Contato', href: 'https://pesquisemais.com.br/contato' },
-    { label: 'Privacidade', href: 'https://www.nsapa.com.br/2025anteriorpmaissolucoes' },
+    { label: 'Privacidade', href: 'https://www.nsapa.com.br/pmaissolucoes' },
   ],
 }
 
@@ -80,7 +80,7 @@ export default function Footer() {
           </p>
           <div className="flex items-center gap-5 text-xs text-white/25 font-light">
             <a href="mailto:admin@pesquisemais.com.br" className="hover:text-white/50 transition-colors">admin@pesquisemais.com.br</a>
-            <a href="https://www.nsapa.com.br/2025anteriorpmaissolucoes" target="_blank" rel="noopener noreferrer" className="hover:text-white/50 transition-colors">Política de Privacidade</a>
+            <a href="https://www.nsapa.com.br/pmaissolucoes" target="_blank" rel="noopener noreferrer" className="hover:text-white/50 transition-colors">Política de Privacidade</a>
           </div>
         </div>
 
